@@ -9,8 +9,8 @@ import requests
 def index(request):
     # return HttpResponse('Hello from Python!')
     
-    response = requests.get('http://cas.sk')
-    return HttpResponse(response) 
+    result = requests.get('https://kuzelka.sk')
+    return HttpResponse(result)
     
     
     
